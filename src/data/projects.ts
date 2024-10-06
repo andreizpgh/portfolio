@@ -1,11 +1,13 @@
-import GOFPreview from "../../assets/images/game-of-life-optimized.gif";
-import GPPreview from "../../assets/images/gem-puzzle.gif";
-import TDLPreview from "../../assets/images/todo-list.gif";
-import IGPreview from "../../assets/images/image-gallery-optimized.gif";
-import OKKPreview from "../../assets/images/ok-kids-optimized.gif";
-import APPreview from "../../assets/images/audio-player-optimized.webp";
-import LPreview from "../../assets/images/library-optimized.webp";
-import CVPreview from "../../assets/images/CV-optimized.webp";
+import {
+  GOFPreview,
+  GPPreview,
+  TDLPreview,
+  IGPreview,
+  OKKPreview,
+  APPreview,
+  LPreview,
+  CVPreview,
+} from "../../assets/images/";
 
 const projects = [
   {

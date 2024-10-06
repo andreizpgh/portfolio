@@ -1,4 +1,4 @@
-import certificate from "../../assets/images/efset.webp";
+import { certificate } from "../../assets/images";
 
 export default function Languages() {
   return (

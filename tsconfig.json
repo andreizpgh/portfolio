@@ -14,5 +14,5 @@
     "resolveJsonModule": true, 
     "allowSyntheticDefaultImports": true
   },
-  "include": ["src/**/*", "index.d.ts"]
+  "include": ["src/**/*", "assets", "index.d.ts"]
 }

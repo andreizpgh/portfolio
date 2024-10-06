@@ -1,22 +1,7 @@
-import Socials from "./Socials";
-import icons from "../data/icons";
-import links from "../data/links";
+import { Socials } from "./";
+import { icons, links } from "../data";
 
 export default function Header() {
-  const iconsList = icons.map((icon) => (
-    <li key={icon.name}>
-      <a href={icon.href}>
-        <img src={icon.src} alt={icon.name} />
-      </a>
-    </li>
-  ));
-
-  const linksList = links.map((link) => (
-    <li key={link}>
-      <a href={`#${link}`}>{link}</a>
-    </li>
-  ));
-
   return (
     <header className="header">
       <div className="container">
@@ -32,15 +17,29 @@ export default function Header() {
                   />
                 </a>
               </div>
-              <h3 className="header__title">Junior Front-End Developer</h3>
-              <ul className="header__icons">{iconsList}</ul>
+              <h3 className="header__title">Front-End Developer</h3>
+              <ul className="header__icons">
+                {icons.map((icon) => (
+                  <li key={icon.name}>
+                    <a href={icon.href}>
+                      <img src={icon.src} alt={icon.name} />
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </div>
             <div className="header__socials">
               <Socials />
             </div>
           </div>
           <nav className="header__links">
-            <ul>{linksList}</ul>
+            <ul>
+              {links.map((link) => (
+                <li key={link}>
+                  <a href={`#${link}`}>{link}</a>
+                </li>
+              ))}
+            </ul>
           </nav>
         </div>
       </div>

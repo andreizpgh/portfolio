@@ -1,7 +1,6 @@
 export default function Employment() {
   return (
     <div className="container">
-      {" "}
       <section className="employment" id="Employment">
         <h1>Employment History</h1>
         <ul className="employment__list">

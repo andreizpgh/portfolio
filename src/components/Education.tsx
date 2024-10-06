@@ -1,7 +1,6 @@
 export default function Education() {
   return (
     <div className="container">
-      {" "}
       <section className="education" id="Education">
         <h1>Education</h1>
         <ul className="education__list">

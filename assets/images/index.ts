@@ -1,0 +1,9 @@
+export { default as GOFPreview } from "./game-of-life-optimized.gif";
+export { default as GPPreview } from "./gem-puzzle.gif";
+export { default as TDLPreview } from "./todo-list.gif";
+export { default as IGPreview } from "./image-gallery-optimized.gif";
+export { default as OKKPreview } from "./ok-kids-optimized.gif";
+export { default as APPreview } from "./audio-player-optimized.webp";
+export { default as LPreview } from "./library-optimized.webp";
+export { default as CVPreview } from "./CV-optimized.webp";
+export { default as certificate } from "./efset.webp";
