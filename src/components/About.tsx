@@ -19,11 +19,11 @@ export default function About() {
             tweaking config files.
           </p>
           <p>
-            After broadening my horizons, I became interested in programming. I
-            realised that with my experience I could bring creativity and
-            inspiration to the mundane, combining this with a passion for
-            problem solving. Thus, I decided to turn my hobby into a career,
-            choosing front-end as my starting point.
+            After graduating, I became interested in programming. I realised
+            that with my experience I could bring creativity and inspiration to
+            the mundane, combining this with a passion for problem solving.
+            Thus, I decided to turn my hobby into a career, choosing front-end
+            as my starting point.
           </p>
         </div>
       </section>
