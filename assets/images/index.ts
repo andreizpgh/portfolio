@@ -5,5 +5,5 @@ export { default as IGPreview } from "./image-gallery-optimized.gif";
 export { default as OKKPreview } from "./ok-kids-optimized.gif";
 export { default as APPreview } from "./audio-player-optimized.webp";
 export { default as LPreview } from "./library-optimized.webp";
-export { default as CVPreview } from "./CV-optimized.webp";
+export { default as HCPreview } from "./halloween-calculator.webp";
 export { default as certificate } from "./efset.webp";

@@ -6,10 +6,19 @@ import {
   OKKPreview,
   APPreview,
   LPreview,
-  CVPreview,
+  HCPreview,
 } from "../../assets/images/";
 
-const projects = [
+interface ProjectI {
+  name: string;
+  preview: string;
+  desc: string;
+  tech: string;
+  source: string;
+  website: string;
+}
+
+const projects: ProjectI[] = [
   {
     name: "Game of Life",
     preview: GOFPreview,
@@ -51,28 +60,28 @@ const projects = [
     website: "https://andreizpgh.github.io/school-project/",
   },
   {
+    name: "Calculator",
+    preview: HCPreview,
+    desc: "Halloween-themed calculator implemented using Reverse Polish Notation and key-frames animations.",
+    tech: "JS, SCSS, Webpack.",
+    source: "https://github.com/andreizpgh/halloween-calculator",
+    website: "https://andreizpgh.github.io/halloween-calculator/",
+  },
+  {
+    name: "Library",
+    preview: LPreview,
+    desc: "Landing page for a library with responsive design and customized image slider.",
+    tech: "JS, SCSS, Swiper.js, Gulp.",
+    source: "https://github.com/andreizpgh/library",
+    website: "https://andreizpgh.github.io/library/",
+  },
+  {
     name: "Audio Player",
     preview: APPreview,
     desc: "Simple web-based audio player with responsive design.",
     tech: "JS.",
     source: "https://github.com/andreizpgh/audio-player",
     website: "https://andreizpgh.github.io/audio-player/",
-  },
-  {
-    name: "Library",
-    preview: LPreview,
-    desc: "Landing page for a library.",
-    tech: "JS, SCSS, Swiper.js, Gulp.",
-    source: "https://github.com/andreizpgh/library",
-    website: "https://andreizpgh.github.io/library/",
-  },
-  {
-    name: "CV",
-    preview: CVPreview,
-    desc: "Minimalist responsive web CV in English with custom design.",
-    tech: "HTML, CSS.",
-    source: "https://github.com/andreizpgh/rsschool-cv",
-    website: "https://andreizpgh.github.io/rsschool-cv/",
   },
 ];
 
