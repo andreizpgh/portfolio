@@ -9,7 +9,7 @@ import {
   HCPreview,
 } from "../../assets/images/";
 
-interface ProjectI {
+interface IProject {
   name: string;
   preview: string;
   desc: string;
@@ -18,7 +18,7 @@ interface ProjectI {
   website: string;
 }
 
-const projects: ProjectI[] = [
+const projects: IProject[] = [
   {
     name: "Game of Life",
     preview: GOFPreview,
